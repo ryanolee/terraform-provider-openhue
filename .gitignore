@@ -1,3 +1,7 @@
 # Terraform files
 *.tfstate
 *.tfstate.backup
+bin/
+.terraform/
+.terraform-version
+.terraform.lock.hcl
