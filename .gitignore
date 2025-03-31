@@ -2,6 +2,7 @@
 *.tfstate
 *.tfstate.backup
 bin/
+dist/
 .terraform/
 .terraform-version
 .terraform.lock.hcl
