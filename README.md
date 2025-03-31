@@ -1,5 +1,8 @@
+>[!IMPORTANT]
+> This was originally created as an demonstration of how to write a terraform provider for a [talk](https://slides.com/rizza-1/deck-b121bc). Due to this API support is extremely limited and the provider is not intended for production use please feel free to use it as a reference however for writing your own provider.
+
 # Open Hue Terraform Provider
-This repository contains a provider for controlling phillips hue hights (Using open hue)
+This repository contains a provider for controlling phillips hue lights [Using open hue](https://www.openhue.io/)
 
 ## Development
 >[!WARNING]
