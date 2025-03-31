@@ -5,7 +5,11 @@ on:
       - 'v*.*.*-rc*'
 
 jobs:
+  
   release:
+    permissions:
+      contents: read
+      packages: write
     name: 'Terraform Provider Release'
     uses: hashicorp/ghaction-terraform-provider-release/.github/workflows/community.yml@v4
     secrets:
